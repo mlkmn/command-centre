@@ -37,3 +37,11 @@ _testmain.go
 *.prof
 
 out/
+
+# intellij specific:
+*.iml
+/.idea
+
+# proto generated classes
+/java/cc-hello-service/src/main/protogen/pl/mlkmn/
+/java/cc-ui/src/main/protogen/pl/mlkmn/
