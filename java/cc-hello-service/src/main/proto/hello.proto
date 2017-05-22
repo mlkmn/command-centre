@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package cc;
+
+option java_package = "pl.mlkmn";
+
+service Hello {
+    rpc Greet ( HelloRequest) returns (  HelloResponse) {}
+
+}
+
+message HelloRequest {
+    string name = 1;
+}
+
+message HelloResponse {
+    string message = 1;
+}
