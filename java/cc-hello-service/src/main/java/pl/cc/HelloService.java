@@ -1,4 +1,4 @@
-package pl.mlkmn;
+package pl.cc;
 
 import io.grpc.stub.StreamObserver;
 import net.devh.springboot.autoconfigure.grpc.server.GrpcService;

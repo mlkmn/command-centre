@@ -1,4 +1,4 @@
-package pl.mlkmn;
+package pl.cc;
 
 import io.grpc.Channel;
 import net.devh.springboot.autoconfigure.grpc.client.GrpcClient;
