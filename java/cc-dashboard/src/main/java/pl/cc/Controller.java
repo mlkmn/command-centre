@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 
     @Autowired
-    private UIHelloService uiHelloService;
+    private DashboardHelloService dashboardHelloService;
 
-    @RequestMapping("/")
+    @RequestMapping("/hello")
     public String printMessage(@RequestParam(defaultValue = "pozdro600") String name) {
-        return uiHelloService.sendMessage(name);
+        return dashboardHelloService.sendMessage(name);
     }
 }

@@ -8,9 +8,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @EnableEurekaClient
 @EnableDiscoveryClient
 @SpringBootApplication
-public class UI {
+public class DashboardApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(UI.class, args);
+        SpringApplication.run(DashboardApplication.class, args);
     }
 }

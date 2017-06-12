@@ -44,4 +44,4 @@ out/
 
 # proto generated classes
 /java/cc-hello-service/src/main/protogen/pl/cc/
-/java/cc-ui/src/main/protogen/pl/cc/
+/java/cc-dashboard/src/main/protogen/pl/cc/

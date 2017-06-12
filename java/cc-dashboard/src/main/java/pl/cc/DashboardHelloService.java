@@ -5,7 +5,7 @@ import net.devh.springboot.autoconfigure.grpc.client.GrpcClient;
 import org.springframework.stereotype.Service;
 
 @Service
-public class UIHelloService {
+public class DashboardHelloService {
 
     @GrpcClient("cc-hello-server")
     private Channel serverChannel;
